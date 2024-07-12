@@ -32,11 +32,11 @@ const userSchema = new mongoose.Schema({
     IdImage: {
         path: {
             type: String,
-            // required: [true, 'Image path required'],
+            required: [true, 'Image path required'],
         },
         publicId: {
             type: String,
-            // required: [true, 'Image publicId required'],
+            required: [true, 'Image publicId required'],
         }
     },
 
